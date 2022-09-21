@@ -6,7 +6,7 @@
         pondria en numeros enteros ";
     }
     else{
-        echo "son iguales y DEL MISMO";
+        echo "no son iguales ni aunque se convierta a entero";
     }
     if($texto===$numero){
         echo "son iguales y del mismo tipo";
