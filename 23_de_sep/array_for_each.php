@@ -14,8 +14,9 @@
     }
     print_r($arr2);
 
-   #en cambio en este for each 
-    foreach($arr2 as  $cantidad){
+    #en cambio en este for each al indicarle que el valor debe de pasarse por referencia
+    #alterara el valor de forma correcta 
+    foreach($arr2 as  &$cantidad){
         $cantidad=$cantidad*2;
     }
 
