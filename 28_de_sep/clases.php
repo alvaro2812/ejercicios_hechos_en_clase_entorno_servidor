@@ -85,6 +85,7 @@
                 $this->saldo = $saldo; 
         }
 
+        #el toString se sobrescribira con el de la clase
         public function __toString()
         {
             return "Cliente: ". $this->getNombre();
