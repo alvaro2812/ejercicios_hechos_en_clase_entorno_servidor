@@ -81,7 +81,7 @@
 
 
         public function setSaldo($saldo)
-        {
+        { 
                 $this->saldo = $saldo; 
         }
 
